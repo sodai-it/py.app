@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 
 st.page_link("app.py", label="Home", icon="🏠")
 
-st.title("Irisデータを用いた予測アプリ")
+st.title("花予測アプリ")
 
 iris = load_iris()
 x = pd.DataFrame(iris.data, columns=iris.feature_names)
