@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 st.page_link("app.py", label="Home", icon="🏠")
 
 # タイトル
-st.write("ポケモンの種類予想アプリ")
+st.write("●ポケモン予想アプリ")
 
 # サイドバーでデータをアップロード
 st.sidebar.header("データをアップロード")
